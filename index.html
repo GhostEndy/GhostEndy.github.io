@@ -6,13 +6,55 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" href="favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .download-btn {
+            margin-top: 20px;
+            padding: 15px 20px;
+            font-size: 18px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #333; /* Darken the background on hover */
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
     <title>[album_tracklist.jpg]</title>
 </head>
 <body>
     <div class="container">
-        <img src="TRACKLIST.jpg" alt="[description: tracklist]">
+        <img src="TRACKLIST.jpg" alt="Description of the image">
         <h1>[album_tracklist.jpg]</h1>
     </div>
+
+    <a href="CREDITS_compressed.pdf" download="CREDITS_compressed.pdf" class="download-btn">[album_credits.pdf]</a>
 </body>
 </html>
+
 
